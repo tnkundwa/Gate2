@@ -1,0 +1,558 @@
+.navigation-tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: white;
+}
+.logo {
+    margin-left: 10%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e90ff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+.part1 {
+    height: 600px;
+    background-image: url("/Gate2/old\ guy.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 32px;
+}
+
+.part1 h1 {
+    font-size: 30px;
+    margin-bottom: 32px;
+    max-width: 800px;
+}
+
+.search-container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.search-box {
+    background: white;
+    padding: 16px;
+    border-radius: 50px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-right: 1px solid #ddd;
+}
+
+
+.search-input input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.seek-button {
+    background: #1e1e4a;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.accommodation-types {
+    padding: 64px 32px;
+    max-width: 1200px;
+}
+
+
+.sign-in {
+    background: #1e1e4a;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.sign-in1 { 
+    display: flex;
+    gap: 32px;
+}
+.sign-in1 p{
+    margin-left: 20px;
+}
+
+.register {
+    color: white;
+    font-size: 15px;
+    margin-left: 550px;
+}
+
+.part2{
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.part3{
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.part3 {
+    display: flex;
+    gap: 16px;
+    margin: 32px 0px;
+}
+
+
+.accom-types {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.accom-cards {
+    display: flex;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+.accom-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.accom-card h3 {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: white;
+}
+
+
+.browse-trips{
+    margin-left: 10%;
+}
+.trip-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.trip-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.rating {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.score {
+    background: #1b6e1b;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.trip-card h3 {
+    padding: 0px 16px;
+}
+
+.location {
+    padding: 0px 16px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.price-info {
+    padding: 16px;
+    border-top: 1px solid #eee;
+}
+
+.total-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price-details {
+    color: #666;
+}
+
+
+.weekend {
+    display: flex;
+    gap: 32px;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+.weekend-card {
+    position: relative;
+    border-radius: 12px;
+}
+
+
+.featured-properties{
+    margin-left: 10%;
+}
+.features {
+    background: #f8f9fa;
+    padding: 64px 32px;
+    display: flex;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 32px;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.feature-card h3 {
+    color: #1e1e4a;
+    margin-bottom: 8px;
+}
+
+.property-listings {
+    padding: 64px 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-header {
+    margin-bottom: 32px;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    color: #1e1e4a;
+    margin-bottom: 8px;
+}
+
+.offer-period {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+
+
+.period {
+    color: #666;
+    margin-bottom: 32px;
+}
+
+
+
+.her {
+    padding: 32px 0;
+}
+
+.her-content {
+    max-width: 600px;
+    margin-bottom: 32px;
+}
+
+.her h1 {
+    font-size: 40px;
+    color: #0a2540;
+    margin-bottom: 16px;
+}
+
+.her p {
+    color: #4a5568;
+    font-size: 1.16px;
+}
+
+.features-grid {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.feature-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+}
+
+.feature-image {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.feature-card h3 {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: white;
+    font-size: 24px;
+}
+
+.benefits {
+    display: flex;
+    gap: 32px;
+    margin: 64px 0px;
+}
+
+.benefit-card {
+    text-align: center;
+    padding: 24px;
+}
+
+.benefit-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0px 16px;
+    background-color: #e2e8f0;
+    border-radius: 50%;
+}
+
+.benefit-card h3 {
+    color: #0a2540;
+    margin-bottom: 8px;
+}
+
+.benefit-card p {
+    color: #4a5568;
+}
+
+.featured-properties {
+    margin: 64px 0;
+}
+
+.featured-properties h2 {
+    font-size: 32px;
+    color: #0a2540;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #4a5568;
+    margin-bottom: 8px;
+}
+
+.period {
+    color: #718096;
+    margin-bottom: 32px;
+}
+
+.property-grid {
+    display: flex;
+    gap: 32px;
+}
+
+.property-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.property-image {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+}
+
+.rating {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.score {
+    background: #166534;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.type {
+    font-weight: 500;
+}
+
+.reviews {
+    color: #718096;
+    font-size: 20px;
+}
+
+.property-card h3 {
+    padding: 0px 16px;
+    margin-bottom: 8px;
+}
+
+.locat {
+    padding: 0 16px;
+    color: #718096;
+    margin-bottom: 16px;
+}
+
+.price {
+    padding: 16px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.total {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.per-night {
+    color: #718096;
+    font-size: 0.9rem;
+}
+
+.tax-information {
+    color: #718096;
+    font-size: 20px;
+}
+
+.host-section {
+    display: flex;
+    margin: 64px 0;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.host-content {
+    flex: 1;
+    padding: 48px;
+}
+
+.host-content h2 {
+    font-size: 2.5rem;
+    color: #1e2022;
+    margin-bottom: 16px;
+}
+
+.host-content p {
+    color: #4a5568;
+    margin-bottom: 32px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1e2022;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+.host-image {
+    flex: 1;
+    background-color: #ddd;
+}
+
+
+.about-section {
+    margin: 64px 0px;
+    margin-left: 10%;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    color: #1e2022;
+    margin: 32px 0px 16px;
+}
+
+.about-section p {
+    color: #4a5568;
+    margin-bottom: 24px;
+}
+
+.about-section a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.site-footer {
+    margin-top: 64px;
+    padding: 64px 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.footer-content {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+
+.footer-column h3 {
+    color: #1e2022;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #4a5568;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    padding-top: 32px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.footer-bottom p {
+    color: #718096;
+    text-align: center;
+}
